@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的测试小游戏</title>
+    <style>
+        body { text-align: center; padding-top: 50px; font-family: sans-serif; background: #f0f0f0; }
+        button { padding: 15px 30px; font-size: 20px; cursor: pointer; background: #49b1f5; color: white; border: none; border-radius: 5px; }
+        button:hover { background: #2997df; }
+    </style>
+</head>
+<body>
+    <h1>我的第一个 Web 项目</h1>
+    <p>点击按钮测试交互功能：</p>
+    <h2 id="counter">0</h2>
+    <button onclick="count()">点击我 +1</button>
+
+    <script>
+        let i = 0;
+        function count() {
+            i++;
+            document.getElementById('counter').innerText = i;
+        }
+    </script>
+</body>
+</html>
