@@ -20,8 +20,6 @@ nav:
 menu:
   首页: / || fas fa-home
   清单 || fas fa-list:
-    相册: /gallery/ || fas fa-images
-    游戏Demo: /games/demo/ || fas fa-gamepad
 
 # --------------------------------------
 # Code Blocks Settings
